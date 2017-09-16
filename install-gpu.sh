@@ -36,7 +36,6 @@ bash "Anaconda3-4.4.0-Linux-x86_64.sh" -b
 
 echo "export PATH=\"$HOME/anaconda3/bin:\$PATH\"" >> ~/.bashrc
 export PATH="$HOME/anaconda3/bin:$PATH"
-conda install -y bcolz
 conda upgrade -y --all
 
 # configure jupyter and prompt for password
